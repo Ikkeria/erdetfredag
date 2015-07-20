@@ -22,11 +22,16 @@ function re () {
 
     var elements = document.getElementsByClassName('overlay-ekstra');
     for(var i=0; i<elements.length; i++) { 
-    elements[i].parentNode.parentNode.parentNode.parentNode.style.display='none';
+        elements[i].parentNode.parentNode.parentNode.parentNode.style.display='none';
     }
     
     var elements = document.getElementsByClassName('ekstralogo-icon');
     for(var i=0; i<elements.length; i++) { 
-    elements[i].parentNode.parentNode.parentNode.parentNode.style.display='none';
+        elements[i].parentNode.parentNode.parentNode.parentNode.style.display='none';
+    }
+    
+    var elements = document.getElementsByClassName('nav-ekstra');
+    for(var i=0; i<elements.length; i++) { 
+        elements[i].style.display='none';
     }
 }
