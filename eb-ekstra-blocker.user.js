@@ -1,37 +1,17 @@
 // ==UserScript==
-// @name           EB Ekstra
-// @version        1.0
-// @namespace      
-// @author         Ikky
-// @description    Blocking ekstra on ekstrabladet.dk
-// @include        http://ekstrabladet.dk/*
-// @include        https://ekstrabladet.dk/*
+// @name         JA
+// @namespace    http://www.cloud-people.dk/
+// @version      1.0
+// @description  Every day is champagn day at cloud-valley
+// @author       RA
+// @match        http://www.erdetfredag.dk/
+// @grant        none
 // ==/UserScript==
-re();
 
-function re () {
-    var elements = document.getElementsByClassName('widgetcontainer');
-    for(var i=0; i<elements.length; i++) { 
-        elements[i].style.display='none';
-    }
 
-    var elements = document.getElementsByClassName('df-img-skin-premium');
-    for(var i=0; i<elements.length; i++) { 
-        elements[i].parentNode.style.display='none';
-    }
+window.addEventListener('load', function() {
 
-    var elements = document.getElementsByClassName('overlay-ekstra');
-    for(var i=0; i<elements.length; i++) { 
-        elements[i].parentNode.parentNode.parentNode.parentNode.style.display='none';
-    }
-    
-    var elements = document.getElementsByClassName('ekstralogo-icon');
-    for(var i=0; i<elements.length; i++) { 
-        elements[i].parentNode.parentNode.parentNode.parentNode.style.display='none';
-    }
-    
-    var elements = document.getElementsByClassName('nav-ekstra');
-    for(var i=0; i<elements.length; i++) { 
-        elements[i].style.display='none';
-    }
-}
+    var elem = document.getElementById("answer");
+    elem.innerHTML = "Det er Cloud-champagne dag!";
+
+}, false);
