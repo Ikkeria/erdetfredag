@@ -1,11 +1,10 @@
 // ==UserScript==
-// @name         JA
-// @namespace    http://www.cloud-people.dk/
-// @version      1.0
-// @description  Every day is champagn day at cloud-valley
-// @author       RA
-// @match        http://www.erdetfredag.dk/
-// @grant        none
+// @name           er det fredag
+// @version        1.0
+// @namespace      
+// @author         RA
+// @description    Every day is champagn day at cloud-valley
+// @include         http://www.erdetfredag.dk/*
 // ==/UserScript==
 
 
