@@ -1,10 +1,10 @@
-Ekstrabladet-ekstra-blocker
+Champagn day
 ===========================
 
-Script for blocking the ekstra sections of ekstrabladet.dk
+Is it friday?
 
 
-[Click here to install](https://github.com/Ikkeria/Ekstrabladet-ekstra-blocker/raw/master/eb-ekstra-blocker.user.js)
+[Click here to install](https://github.com/Ikkeria/erdetfredag/raw/master/erdetfredag.js)
 
 [Manage it in Chrome with Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
 
